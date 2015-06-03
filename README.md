@@ -16,7 +16,7 @@ npm install react-wufoo-embed --save
 
 Import the component and add the required attributes, that's it!  
 
-```
+``` javascript
 var WufooForm = require('react-wufoo-embed');
 
 <WufooForm userName="*your username*" formHash="*your formId*" />
@@ -24,13 +24,15 @@ var WufooForm = require('react-wufoo-embed');
 
 *You can also get the embed code directly from the 'Share tab' in the Wufoo Admin*
 
-### Properties
+## Properties
 
 The following props are required:
 
 **userName** *[String]* - Your Wufoo username.
 
 **formHash** *[String]* - The FormId of your Wufoo Form.
+
+========
 
 Optional:
 
