@@ -29,13 +29,19 @@ var WufooForm = require('react-wufoo-embed');
 The following props are required:
 
 **userName** *[String]* - Your Wufoo username.
+
 **formHash** *[String]* - The FormId of your Wufoo Form.
 
 Optional:
+
 **header** *[String] default: 'show'* - 'show' or 'hide' the header of your form.
+
 **autoResize** *[String] default: true* - Auto size the height of your form.
+
 **height** *[String]* - Override the height of your form if **autoResize** is set to false.
+
 **async** *[Boolean] default: true* - Disable async loading of your form.
+
 **ssl** *[Boolean] default: true* - Disable this if you want to force non-secure http.
 
 
