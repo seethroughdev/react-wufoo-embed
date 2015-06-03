@@ -17,15 +17,15 @@ let ReactWufooEmbed = createClass({
 
 	getDefaultProps() {
 		return {
-			userName: '',
-			formHash: '',
-			autoResize: true,
-			height: '0',
 			async: true,
-			host: 'wufoo.com',
+			autoResize: true,
+			embedJs: '/scripts/embed/form.js',
+			formHash: '',
 			header: 'show',
+			height: '0',
+			host: 'wufoo.com',
 			ssl: true,
-			embedJs: '/scripts/embed/form.js'
+			userName: ''
 		};
 	},
 
