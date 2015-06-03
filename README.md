@@ -30,6 +30,8 @@ var WufooForm = require('react-wufoo-embed');
 
 **formHash** *[String] required* - The FormId of your Wufoo Form.
 
+
+
 Optional >>
 
 **header** *[String] default: 'show'* - 'show' or 'hide' the header of your form.
