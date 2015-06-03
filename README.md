@@ -45,6 +45,11 @@ Optional >>
 **ssl** *[Boolean] default: true* - Disable this if you want to force non-secure http.
 
 
+### Thanks
+
+Huge thanks to Jed Watson for making [https://github.com/JedWatson/generator-react-component](https://github.com/JedWatson/generator-react-component).  
+An awesome way to generate components.
+
 ### Contributions
 
 Pull requests are always welcomed.  Just make sure to create an issue first, and set the PR to the 'upstream' branch instead of Master.  Thanks!
