@@ -1,5 +1,3 @@
-# React Wufoo Embed
-
 A quick way to use Wufoo Forms in your React Application.
 
 ## Demo & Examples
@@ -16,15 +14,15 @@ npm install react-wufoo-embed --save
 
 ## Usage
 
-Should be very straight forward.  Import the component and add the required attributes, your form should show up fine.  
-
-*You can also get the embed code directly from the 'Share tab' in the Wufoo Admin*
+Import the component and add the required attributes, that's it!  
 
 ```
 var WufooForm = require('react-wufoo-embed');
 
 <WufooForm userName="*your username*" formHash="*your formId*" />
 ```
+
+*You can also get the embed code directly from the 'Share tab' in the Wufoo Admin*
 
 ### Properties
 
