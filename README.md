@@ -26,15 +26,11 @@ var WufooForm = require('react-wufoo-embed');
 
 ## Properties
 
-The following props are required:
+**userName** *[String] required* - Your Wufoo username.
 
-**userName** *[String]* - Your Wufoo username.
+**formHash** *[String] required* - The FormId of your Wufoo Form.
 
-**formHash** *[String]* - The FormId of your Wufoo Form.
-
-========
-
-Optional:
+==========
 
 **header** *[String] default: 'show'* - 'show' or 'hide' the header of your form.
 
