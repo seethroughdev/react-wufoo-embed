@@ -1,6 +1,8 @@
-var React = require('react');
-var Wufoo = require('react-wufoo-embed');
-var App = React.createClass({
+import React from 'react';
+import Wufoo from 'react-wufoo-embed';
+const {createClass, render} = React;
+
+let App = createClass({
 	render () {
 		return (
 			<div>
@@ -14,4 +16,4 @@ var App = React.createClass({
 	}
 });
 
-React.render(<App />, document.getElementById('app'));
+render(<App />, document.getElementById('app'));
