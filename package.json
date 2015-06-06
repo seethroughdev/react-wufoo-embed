@@ -47,7 +47,7 @@
     "publish:site": "gulp publish:examples",
     "release": "gulp release",
     "start": "gulp dev",
-    "test": "karma start",
+    "test": "./node_modules/.bin/karma start",
     "test-watch": "karma start --no-single-run",
     "watch": "gulp watch:lib"
   },
