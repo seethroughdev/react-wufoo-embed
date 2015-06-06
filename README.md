@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master)](https://travis-ci.org/seethroughtrees/react-wufoo-embed)
 
+![Wufoo logo](https://www.wufoo.com/assets/images/logos/wufoo/round-sm.png)
+
 A quick way to use [Wufoo](https://www.wufoo.com/) Forms in your React Application.
 
 ## Demo & Examples
@@ -32,19 +34,15 @@ var WufooForm = require('react-wufoo-embed');
 
 **formHash** *[String] required* - The FormId of your Wufoo Form.
 
-
-
-Optional >>
-
 **header** *[String] default: 'show'* - 'show' or 'hide' the header of your form.
 
 **autoResize** *[String] default: true* - Auto size the height of your form.
 
 **height** *[String]* - Override the height of your form if **autoResize** is set to false.
 
-**async** *[Boolean] default: true* - Disable async loading of your form.
+**async** *[Bool] default: true* - Disable async loading of your form.
 
-**ssl** *[Boolean] default: true* - Disable this if you want to force non-secure http.
+**ssl** *[Bool] default: true* - Disable this if you want to force non-secure http.
 
 
 ### Thanks
