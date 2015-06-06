@@ -1,7 +1,7 @@
 import React from 'react';
 const {PropTypes, createClass} = React;
 
-let ReactWufooEmbed = createClass({
+let Wufoo = createClass({
 
 	propTypes: {
 		async: PropTypes.bool,
@@ -80,4 +80,4 @@ let ReactWufooEmbed = createClass({
 
 });
 
-export default ReactWufooEmbed;
+export default Wufoo;

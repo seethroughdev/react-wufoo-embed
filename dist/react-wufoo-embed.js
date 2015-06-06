@@ -15,7 +15,7 @@ var _react2 = _interopRequireDefault(_react);
 var PropTypes = _react2['default'].PropTypes;
 var createClass = _react2['default'].createClass;
 
-var ReactWufooEmbed = createClass({
+var Wufoo = createClass({
 
 	propTypes: {
 		async: PropTypes.bool,
@@ -92,7 +92,7 @@ var ReactWufooEmbed = createClass({
 
 });
 
-exports['default'] = ReactWufooEmbed;
+exports['default'] = Wufoo;
 module.exports = exports['default'];
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
