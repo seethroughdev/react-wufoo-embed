@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master)](https://travis-ci.org/seethroughtrees/react-wufoo-embed)
-
 ![Wufoo logo](https://www.wufoo.com/assets/images/logos/wufoo/round-sm.png)
 
 A quick way to use [Wufoo](https://www.wufoo.com/) Forms in your React Application.
+
+[![Build Status](https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master)](https://travis-ci.org/seethroughtrees/react-wufoo-embed)
 
 ## Demo & Examples
 
