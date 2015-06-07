@@ -44,11 +44,12 @@ var WufooForm = require('react-wufoo-embed');
 
 **ssl** *[Bool] default: true* - Disable this if you want to force non-secure http.
 
+==============
 
 ### Thanks
 
 Huge thanks to Jed Watson for making [https://github.com/JedWatson/generator-react-component](https://github.com/JedWatson/generator-react-component).  
-An awesome way to generate components.
+A super easy way to start components.
 
 ### Contributions
 

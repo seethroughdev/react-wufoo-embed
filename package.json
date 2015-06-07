@@ -1,6 +1,6 @@
 {
   "name": "react-wufoo-embed",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "React Wufoo Embed",
   "main": "src/ReactWufooEmbed.js",
   "author": "seethroughtrees",
@@ -53,6 +53,9 @@
   },
   "keywords": [
     "react",
-    "react-component"
+    "react-component",
+    "wufoo",
+    "form",
+    "form-embed"
   ]
 }
