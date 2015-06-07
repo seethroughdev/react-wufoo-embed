@@ -5,13 +5,11 @@ const {createClass, render} = React;
 let App = createClass({
 	render () {
 		return (
-			<div>
-				<Wufoo
-					userName="adaml"
-					formHash="zkgmlhk086qrhp"
-					header="hide"
-				/>
-			</div>
+			<Wufoo
+				userName="adaml"
+				formHash="zkgmlhk086qrhp"
+				header="hide"
+			/>
 		);
 	}
 });

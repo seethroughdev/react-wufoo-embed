@@ -1,24 +1,73 @@
 <!doctype html>
+
 <head>
 	<title>React Wufoo Embed</title>
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css" media="screen" charset="utf-8">
 	<link rel="stylesheet" href="example.css">
 </head>
+
 <body>
 	<div class="container">
-		<h1>React Wufoo Embed</h1>
-		<span><a href="https://github.com/seethroughtrees/react-wufoo-embed">View project on GitHub</a></span>
+		<h1>React Wufoo Embed
+			<img src="https://www.wufoo.com/assets/images/logos/wufoo/round-sm.png" alt="Wufoo Logo" width="105" height="105" style="float: right;" />
+		</h1>
+		<a href="https://travis-ci.org/seethroughtrees/react-wufoo-embed" target="_blank">
+			<img src="https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master" width="100" />
+		</a>
+		&nbsp;
+		<!--<iframe src="https://ghbtns.com/github-btn.html?user=seethroughtrees&repo=react-wufoo-embed&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+		<iframe src="https://ghbtns.com/github-btn.html?user=seethroughtrees&repo=react-wufoo-embed&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
+		-->
+
 		<hr>
+
+		<p>A quick way to use <a href="https://www.wufoo.com/">Wufoo</a> Forms in your React Application.</p>
+
+		<h4>Installation</h4>
+		<pre><code class="language-bash">npm install --save-dev react-wufoo-embed</code></pre>
+		or with bower:
+		<pre><code class="language-bash">bower install --save-dev react-wufoo-embed</code></pre>
+
+		<h4>Use</h4>
+		<p>This module is <a href="https://github.com/umdjs/umd">UMD</a> compatible, so you can use it with CommonJS, AMD or by loading the src.</p>
+		<pre><code class="language-javascript">// import the module (CommonJS shown)
+var Wufoo = require('react-wufoo-embed');
+
+// inside your render() function
+&lt;Wufoo userName="*your username*" formHash="*formId*" />;</code></pre>
+
+		<h4>Options</h4>
+		<p>The following props are available.</p>
+		<ul class="options">
+			<li><strong>userName</strong> <em>[String] required</em> - Your Wufoo username.</li>
+			<li><strong>formHash</strong> <em>[String] required</em> - The FormID of your Wufoo form.</li>
+			<li><strong>header</strong> <em>[String] default: 'show'</em> - 'show' or 'hide' the header of your form.</li>
+			<li><strong>autoResize</strong> <em>[String] default: 'true'</em> - Auto size the height of your form.</li>
+			<li><strong>height</strong> <em>[String]</em> -  Override the height of your form if autoResize is set to false.</li>
+			<li><strong>async</strong> <em>[Bool] default: true</em> - Disable async loading of your form.</li>
+			<li><strong>ssl</strong> <em>[Bool] default: true</em> - Disable this if you want to force non-secure http. </li>
+		</ul>
+
+		<h4>Example</h4>
+		<pre><code class="language-javascript">&lt;Wufoo userName="adaml" formHash="zkgmlhk086qrhp" header="hide" />;</code></pre>
+		<hr>
+		<p></p>
+
 		<!-- the example app is rendered into this div -->
 		<div id="app"></div>
-		<div class="hint">
-			<!-- put any hints about your component example here -->
-		</div>
+
+		<h4>Extras</h4>
+		<p>This module supports multiple forms loaded on the page.</p>
+
+		<hr>
+
 		<div class="footer">
 			Copyright &copy; 2015 seethroughtrees.
 		</div>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
 	<script src="common.js"></script>
 	<script src="bundle.js"></script>
 	<script src="example.js"></script>

@@ -21,12 +21,15 @@
   ],
   "license": "MIT",
   "ignore": [
-    ".editorconfig",
+    ".*",
     ".gitignore",
     "package.json",
     "src",
     "node_modules",
     "example",
-    "__tests__"
+    "__tests__",
+    "karma.conf.js",
+    "tests.webpack.js",
+    "gulpfile.js"
   ]
 }
