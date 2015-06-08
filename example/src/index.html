@@ -10,25 +10,31 @@
 
 <body>
 	<div class="container">
+
+		<!-- HEADING -->
 		<h1>React Wufoo Embed
 			<img class="logo" src="https://www.wufoo.com/assets/images/logos/wufoo/round-sm.png" alt="Wufoo Logo" width="105" height="105" style="float: right;" />
 		</h1>
-		<a href="https://travis-ci.org/seethroughtrees/react-wufoo-embed" target="_blank">
+
+		<!-- LINKS  -->
+		<a class="travis-link" href="https://travis-ci.org/seethroughtrees/react-wufoo-embed" target="_blank">
 			<img src="https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master" height="20" />
 		</a>
 		<a class="github-button" href="https://github.com/seethroughtrees/react-wufoo-embed" data-icon="octicon-star" aria-label="Star seethroughtrees/react-wufoo-embed on GitHub">Star</a>
-		<a class="github-button" href="https://github.com/seethroughtrees/react-wufoo-embed/fork" data-icon="octicon-git-branch" aria-label="Fork seethroughtrees/react-wufoo-embed on GitHub">Fork</a>
 		<a class="github-button" href="https://github.com/seethroughtrees/react-wufoo-embed" data-icon="octicon-eye" aria-label="Watch seethroughtrees/react-wufoo-embed on GitHub">Watch</a>
 		<hr>
 
+		<!-- DESCRIPTION -->
 		<p>A quick and easy way to use <a href="https://www.wufoo.com/">Wufoo</a> Forms in your React Application.</p>
 		<p><a class="button gh-button" href="https://github.com/seethroughtrees/react-wufoo-embed">View on Github</a></p>
 
+		<!-- INSTALLATION -->
 		<h4 id="installation">Installation</h4>
 		<pre><code class="language-bash">npm install --save-dev react-wufoo-embed</code></pre>
 		or with bower:
 		<pre><code class="language-bash">bower install --save-dev react-wufoo-embed</code></pre>
 
+		<!-- USAGE -->
 		<h4 id="use">Use</h4>
 		<p>This module is <a href="https://github.com/umdjs/umd">UMD</a> compatible, so you can use it with CommonJS, AMD or by loading the src.</p>
 		<pre><code class="language-javascript">// import the module (CommonJS shown)
@@ -37,6 +43,7 @@ var Wufoo = require('react-wufoo-embed');
 // inside your render() function
 &lt;Wufoo userName="*your username*" formHash="*formId*" />;</code></pre>
 
+		<!-- PROPS -->
 		<h4 id="options">Options</h4>
 		<p>The following props are available.</p>
 		<ul class="options">
@@ -49,14 +56,16 @@ var Wufoo = require('react-wufoo-embed');
 			<li><strong>ssl</strong> <em>[Bool] default: true</em> - Disable this if you want to force non-secure http. </li>
 		</ul>
 
+		<!-- EXAMPLE -->
 		<h4 id="example">Example</h4>
-		<pre><code class="language-javascript">&lt;Wufoo userName="adaml" formHash="zkgmlhk086qrhp" header="hide" />;</code></pre>
+		<pre><code class="language-markup">&lt;Wufoo userName="adaml" formHash="zkgmlhk086qrhp" header="hide" />;</code></pre>
 		<hr>
 		<p></p>
 
 		<!-- the example app is rendered into this div -->
 		<div id="app"></div>
 
+		<!-- EXTRAS -->
 		<h4 id="extras">Extras</h4>
 		<p>This module supports multiple forms loaded on the page.</p>
 		<p>Contributions are welcomed, please see README in github page.</p>
@@ -67,6 +76,7 @@ var Wufoo = require('react-wufoo-embed');
 			Copyright &copy; 2015 seethroughtrees.
 		</div>
 	</div>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
 	<script src="common.js"></script>
 	<script src="bundle.js"></script>
