@@ -30,3 +30,13 @@ h4 {
 		display: block;
 	}
 }
+
+/* Prism override */
+pre[class*=language-] {
+	background: transparent;
+	padding: 1em 0;
+}
+
+pre[class*=language-]>code[data-language]::before {
+	content: '';
+}
