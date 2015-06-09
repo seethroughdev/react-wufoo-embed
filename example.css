@@ -1,0 +1,39 @@
+body {
+  font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #2b2b2b;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+  padding: 1em;
+}
+h4 {
+  margin-top: 1em;
+}
+.options em {
+  font-size: 0.9em;
+  color: #666;
+}
+.logo {
+  display: none;
+}
+.button {
+  border-color: #d7d7d7;
+}
+a.travis-link {
+  text-decoration: none;
+}
+@media (min-width: 750px) {
+  .logo {
+    display: block;
+  }
+}
+/* Prism override */
+pre[class*=language-] {
+  background: transparent;
+  padding: 1em 0;
+}
+pre[class*=language-] > code[data-language]::before {
+  content: '';
+}
