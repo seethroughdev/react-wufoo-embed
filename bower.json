@@ -1,6 +1,6 @@
 {
   "name": "react-wufoo-embed",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React Wufoo Embed",
   "main": "dist/react-wufoo-embed.min.js",
   "homepage": "https://github.com/seethroughtrees/react-wufoo-embed",
