@@ -53,6 +53,10 @@ let Wufoo = createClass({
 		} catch (e) {}
 	},
 
+	runScript() {
+		return typeof window.WufooForm !== 'function' ? this.createScript() : this.embedForm();
+	},
+
 
 	/**
 	 * Load the Wufoo Embed JS file
@@ -70,8 +74,12 @@ let Wufoo = createClass({
 		return scr;
 	},
 
+	componentDidUpdate() {
+		this.runScript();
+	},
+
 	componentWillMount() {
-		typeof window.WufooForm !== 'function' ? this.createScript() : this.embedForm();
+		this.runScript();
 	},
 
 	render() {
