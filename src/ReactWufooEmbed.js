@@ -83,7 +83,7 @@ let Wufoo = createClass({
 	},
 
 	render() {
-		return (<div id={`wufoo-${this.props.formHash}`}></div>);
+		return (<div {...this.props} id={`wufoo-${this.props.formHash}`}></div>);
 	}
 
 });
