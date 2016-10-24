@@ -1,6 +1,6 @@
 {
   "name": "react-wufoo-embed",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "React Wufoo Embed",
   "main": "lib/ReactWufooEmbed.js",
   "author": "seethroughtrees",
