@@ -90,7 +90,7 @@ var Wufoo = createClass({
 		this.runScript();
 	},
 
-	componentWillMount: function componentWillMount() {
+	componentDidMount: function componentDidMount() {
 		this.runScript();
 	},
 
