@@ -15,9 +15,7 @@ var taskConfig = {
 	component: {
 		name: 'ReactWufooEmbed',
 		dependencies: [
-			'classnames',
-			'react',
-			'react/addons'
+			'react'
 		],
 		lib: 'lib'
 	},
