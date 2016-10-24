@@ -30,6 +30,7 @@
     "karma-webpack": "^1.5.1",
     "node-libs-browser": "^0.5.2",
     "phantomjs": "^1.9.17",
+    "react-addons-test-utils": "^15.3.2",
     "react-component-gulp-tasks": "^0.7.0",
     "webpack": "^1.9.10"
   },

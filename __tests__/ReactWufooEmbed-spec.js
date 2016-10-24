@@ -1,11 +1,11 @@
-import React from 'react/addons';
-const {TestUtils} = React.addons;
+import React from 'react';
+import {TestUtils} from 'react-addons-test-utils';
 const Wufoo = require('../src/ReactWufooEmbed');
 
 let demo = {
   userName: 'adaml',
   formHash: 'zkgmlhk086qrhp'
-}
+};
 
 describe('Wufoo', () => {
 
