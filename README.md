@@ -21,7 +21,7 @@ npm install react-wufoo-embed --save
 Import the component and add the required attributes, that's it!  
 
 ``` javascript
-var WufooForm = require('react-wufoo-embed');
+const WufooForm = require('react-wufoo-embed');
 
 <WufooForm userName="*your username*" formHash="*your formId*" />
 ```
@@ -37,6 +37,8 @@ var WufooForm = require('react-wufoo-embed');
 **header** *[String] default: 'show'* - 'show' or 'hide' the header of your form.
 
 **autoResize** *[String] default: true* - Auto size the height of your form.
+
+**defaultValues** *[String]* - Set default values.
 
 **height** *[String]* - Override the height of your form if **autoResize** is set to false.
 
