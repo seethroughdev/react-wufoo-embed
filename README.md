@@ -2,15 +2,13 @@
 
 A quick way to use [Wufoo](https://www.wufoo.com/) Forms in your React Application.
 
-[![Build Status](https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master)](https://travis-ci.org/seethroughtrees/react-wufoo-embed)
-
 ## Demo & Examples
 
 Live demo: [seethroughtrees.github.io/react-wufoo-embed](http://seethroughtrees.github.io/react-wufoo-embed/)
 
 ## Installation
 
-Install the component from [npm](#).
+Install the component from [npm](https://www.npmjs.com/package/react-wufoo-embed).
 
 ```
 npm install react-wufoo-embed --save
@@ -21,7 +19,7 @@ npm install react-wufoo-embed --save
 Import the component and add the required attributes, that's it!  
 
 ``` javascript
-var WufooForm = require('react-wufoo-embed');
+const WufooForm = require('react-wufoo-embed');
 
 <WufooForm userName="*your username*" formHash="*your formId*" />
 ```
@@ -37,6 +35,8 @@ var WufooForm = require('react-wufoo-embed');
 **header** *[String] default: 'show'* - 'show' or 'hide' the header of your form.
 
 **autoResize** *[String] default: true* - Auto size the height of your form.
+
+**defaultValues** *[String]* - Set default values.
 
 **height** *[String]* - Override the height of your form if **autoResize** is set to false.
 

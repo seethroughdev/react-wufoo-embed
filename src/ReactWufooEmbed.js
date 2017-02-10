@@ -6,6 +6,7 @@ let Wufoo = createClass({
     propTypes: {
         async: PropTypes.bool,
         autoResize: PropTypes.bool,
+        defaultValues: PropTypes.string,
         embedJs: PropTypes.string,
         formHash: PropTypes.string.isRequired,
         header: PropTypes.oneOf(['show', 'hide']),
@@ -20,6 +21,7 @@ let Wufoo = createClass({
             async: true,
             autoResize: true,
             embedJs: '/scripts/embed/form.js',
+            defaultValues: '',
             formHash: '',
             header: 'show',
             height: '0',
@@ -50,7 +52,7 @@ let Wufoo = createClass({
             form = new window.WufooForm();
             form.initialize(self.props);
             form.display();
-        } catch (e) {return e;}
+        } catch (e) {throw e;}
     },
 
     runScript() {
