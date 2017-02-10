@@ -2,15 +2,13 @@
 
 A quick way to use [Wufoo](https://www.wufoo.com/) Forms in your React Application.
 
-[![Build Status](https://travis-ci.org/seethroughtrees/react-wufoo-embed.svg?branch=master)](https://travis-ci.org/seethroughtrees/react-wufoo-embed)
-
 ## Demo & Examples
 
 Live demo: [seethroughtrees.github.io/react-wufoo-embed](http://seethroughtrees.github.io/react-wufoo-embed/)
 
 ## Installation
 
-Install the component from [npm](#).
+Install the component from [npm](https://www.npmjs.com/package/react-wufoo-embed).
 
 ```
 npm install react-wufoo-embed --save
