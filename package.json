@@ -1,6 +1,6 @@
 {
   "name": "react-wufoo-embed",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "React Wufoo Embed",
   "main": "lib/ReactWufooEmbed.js",
   "author": "seethroughtrees",
@@ -22,15 +22,19 @@
     "expect": "^1.6.0",
     "gulp": "^3.8.11",
     "node-libs-browser": "^0.5.2",
-    "react": "^15.4.2",
+    "prop-types": "^15.5.9",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "react-addons-test-utils": "^15.3.2",
     "react-component-gulp-tasks": "^0.7.0"
   },
   "browserify-shim": {
-    "react": "global:React"
+    "react": "global:React",
+    "react-dom": "global:ReactDOM"
   },
   "peerDependencies": {
-    "react": ">= 0.13.0"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "scripts": {
     "build": "gulp clean && NODE_ENV=production gulp build",
