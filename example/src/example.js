@@ -1,17 +1,15 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Wufoo from 'react-wufoo-embed';
-const {createClass, render} = React;
 
-let App = createClass({
-	render () {
-		return (
-			<Wufoo
-				userName="adaml"
-				formHash="zkgmlhk086qrhp"
-				header="hide"
-			/>
-		);
-	}
-});
+let App = function () {
+    return (
+        <Wufoo
+            userName="adaml"
+            formHash="zkgmlhk086qrhp"
+            header="hide"
+        />
+    );
+};
 
-render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
